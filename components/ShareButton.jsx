@@ -7,7 +7,7 @@ const ShareButton = () => {
 
   const copyLink = () => {
     navigator.clipboard.writeText(
-      `http://localhost:3000/${router.query.handle}`
+      `https://link-tree-kappa.vercel.app/${router.query.handle}`
     );
     toast("Copied to clipboard");
   };
